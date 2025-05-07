@@ -65,7 +65,7 @@ const Home = ({ token: propToken }) => {
         {
           method: "GET",
           headers: {
-            Authorization: `Bearer ${tokenToUse}`,
+            Authorization: tokenToUse,
           },
         }
       );
